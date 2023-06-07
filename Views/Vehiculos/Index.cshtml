@@ -1,0 +1,106 @@
+﻿@model MvcConcesionaria.Models.MarcaVehiculosVM
+
+@{
+    ViewData["Title"] = "Catálogo de vehículos";
+}
+
+<h1>Catálogo de vehículos</h1>
+
+<p>
+    <button class="btn-success" onclick="window.location.href='@Url.Action("Create", "Vehiculos")'">Ingresar nuevo vehículo</button>
+</p>
+<form asp-controller="Vehiculos" asp-action="Index" method="get">
+    <p>
+
+        <select asp-for="MarcaVehiculo" asp-items="Model.Marcas">
+            <option value="">Todos</option>
+        </select>
+
+        Modelo: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filtrar" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].AnioFabricacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].Observaciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].CantPuertas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculos![0].Reservado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Vehiculos!) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnioFabricacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observaciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantPuertas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Reservado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                    @if (item.Reservado == "Si")
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id">Entregar</a>
+                    }
+                    
+                    @if (item.Reservado == "No") {
+                        <a asp-action="OnPost" asp-route-id="@item.Id">Reservar</a><i> |</i>
+
+                        <a asp-controller="Clientes" asp-action="Index" asp-route-searchString="@item.Id" >Vender</a>
+
+                        <i> |</i>
+
+                        <a asp-action="Delete" asp-route-id="@item.Id">Eliminar </a>
+
+                        
+                    }
+                    
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

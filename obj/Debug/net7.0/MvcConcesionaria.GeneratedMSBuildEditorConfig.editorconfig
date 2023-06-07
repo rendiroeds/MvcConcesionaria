@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MvcConcesionaria
+build_property.RootNamespace = MvcConcesionaria
+build_property.ProjectDir = C:\Users\Gonzalo\Desktop\Proyectos\MvcConcesionaria\MvcConcesionaria\MvcConcesionaria\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Gonzalo\Desktop\Proyectos\MvcConcesionaria\MvcConcesionaria\MvcConcesionaria
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/SeleccionCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcU2VsZWNjaW9uQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Clientes/Venta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcVmVudGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Vehiculos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Vehiculos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Vehiculos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Vehiculos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Vehiculos/Entregar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXEVudHJlZ2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Vehiculos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Ventas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Ventas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Ventas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Ventas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Ventas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gonzalo/Desktop/Proyectos/MvcConcesionaria/MvcConcesionaria/MvcConcesionaria/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gvbya762x4

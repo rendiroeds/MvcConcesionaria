@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Pagina Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+    <button onclick="window.location.href='@Url.Action("Index", "Vehiculos")'">Ver vehiculos</button>
+    <button onclick="window.location.href='@Url.Action("Create", "Vehiculos")'">Ingresar vehiculo</button>
+</div>

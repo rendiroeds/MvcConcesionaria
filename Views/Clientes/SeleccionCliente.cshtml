@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MvcConcesionaria.Models.Cliente>
+
+@{
+    ViewData["Title"] = "SeleccionCliente";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Seleccione un cliente</h1>
+    <button onclick="window.location.href='@Url.Action("Index", "Clientes")'">Ver clientes</button>
+    <button onclick="window.location.href='@Url.Action("Create", "Clientes")'">Dar de alta un cliente</button>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+

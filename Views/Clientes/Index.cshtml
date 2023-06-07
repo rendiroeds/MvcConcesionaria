@@ -1,0 +1,29 @@
+﻿@model MvcConcesionaria.Models.FiltroClientes
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<form asp-controller="Clientes" asp-action="Index" method="get">
+    <p>
+        Nombre: <input type="text" asp-for="Apellido" />
+        <input type="submit" value="Filtrar" />
+    </p>
+</form>
+<div class="form-group">
+    <label for="cliente">Seleccionar cliente:</label>
+    <p>
+        Nombre: <input type="text" asp-for="Apellido" />
+        <input type="submit" value="Filtrar" />
+    </p>
+    <select name="cliente" class="form-control">
+        <option value="">Seleccione un cliente</option>
+        @foreach (var cliente in Model.ListaClientes!.Where(c => c.Nombre!.Contains(Model.Apellido!)))
+        {
+            <option value="@cliente.Id">@cliente.Nombre  @cliente.Apellido</option>
+        }
+    </select>
+</div>
+
+
